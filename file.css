@@ -1,0 +1,83 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+   
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.container>* {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+header>img:first-child {
+    width: 24%;
+    margin-left: 38%;
+    margin-top: 65px;
+}
+
+.subtitle {
+    text-align: center;
+    color: rgb(39, 216, 39);
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(39, 216, 39);
+    padding: 15px;
+}
+
+.details {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.details > * {
+    margin-bottom: 5px;
+}
+
+.name-mono {
+    font-size: 20px;
+    margin-right: 0%;
+    font-size: 25px;
+}
+
+.name-mono > input {
+    margin: 0px;
+}
+
+.charge{
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.middle{
+    width: 250px;
+    background-color: rgb(221, 175, 90);
+}
+
+.full{
+    width: 500px;
+    background-color: rgb(67, 219, 67);
+}
+
+.almost-discharged{
+    width: 75px;
+    background-color: rgb(192, 79, 79);
+}
